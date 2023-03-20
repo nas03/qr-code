@@ -1,0 +1,37 @@
+body {
+    text-align: center;
+    background-color: #dbe5e6;
+    font-size: 15px;
+    font-family: 'Merriweather', sans-serif;
+}
+
+.container {
+    position: relative;
+    left: 50%;
+    width: 300px;
+    transform: translateX(-50%);
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px;
+}
+
+.qr-code {
+    width: 270px;
+    height: 270px;
+    position: relative;
+    border-radius: 10px;
+    top: 15px;
+}
+
+.text-1 {
+    font-family: 'Outfit', sans-serif;
+    font-weight: 1000;
+    font-size: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.text-2 {
+    padding: 0 30px 0 30px;
+    color: lightgray;
+    font-size: 13px;
+}
